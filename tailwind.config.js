@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   mode: 'jit',
   purge: {
@@ -12,7 +14,30 @@ module.exports = {
   darkMode: false,
 
   theme: {
-    extend: {},
+    extend: {
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: '1rem',
+          xs: '1rem',
+          sm: '2rem',
+          lg: '4rem',
+          xl: '5rem',
+          '2xl': '6rem',
+        },
+      },
+
+      fontFamily: {
+        sans: ['Lato', ...defaultTheme.fontFamily.sans],
+      },
+
+      screens: {
+        xs: '375px',
+        ...defaultTheme.screens,
+        '2xl': '1536px',
+        '3xl': '1800px',
+      },
+    },
   },
 
   plugins: [],
