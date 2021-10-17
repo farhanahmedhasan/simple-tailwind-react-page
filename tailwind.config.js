@@ -37,6 +37,10 @@ module.exports = {
         '2xl': '1536px',
         '3xl': '1800px',
       },
+
+      height: {
+        120: '460px',
+      },
     },
   },
 
