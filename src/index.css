@@ -2,6 +2,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-body {
-  background-color: rgba(255, 253, 235, 1);
-}
+@import './styles/base.css';
+@import './styles/card.css';
+@import './styles/footer.css';
+@import './styles/dropdown.css';

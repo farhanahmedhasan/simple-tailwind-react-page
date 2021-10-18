@@ -1,0 +1,13 @@
+@import 'tailwindcss/components';
+
+@layer components {
+  .hideNavDeropDown {
+    @apply flex flex-col items-center bg-yellow-200 space-y-2 py-2 cursor-pointer fixed w-1/2 h-screen top-0 z-10 -left-full;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .showNavDeropDown {
+    @apply flex flex-col items-center bg-yellow-200 space-y-2 py-2 cursor-pointer fixed w-1/2 h-screen top-0 z-10 left-0;
+    transition: all 0.3s ease-in-out;
+  }
+}

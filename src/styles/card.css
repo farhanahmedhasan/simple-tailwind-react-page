@@ -1,0 +1,23 @@
+@import 'tailwindcss/components';
+
+@layer components {
+  .cards {
+    @apply container gap-4 flex flex-col items-center md:items-stretch md:flex-row md:justify-center md:flex-wrap;
+  }
+
+  .card {
+    @apply max-w-xs mb-12 flex flex-col items-center justify-center md:justify-start;
+  }
+
+  .card__img {
+    @apply w-full h-96 sm:h-120 rounded-sm shadow mb-6;
+  }
+
+  .card__title {
+    @apply text-2xl mb-2;
+  }
+
+  .card__subtitle {
+    @apply mb-2 text-center;
+  }
+}
