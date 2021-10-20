@@ -1,0 +1,11 @@
+@import 'tailwindcss/components';
+
+@layer components {
+  .btn {
+    @apply inline-block bg-yellow-400 font-medium text-xl px-10 py-6 hover:bg-yellow-500 transition duration-300 ease-in-out;
+  }
+
+  .btn--rounded {
+    @apply rounded-full;
+  }
+}

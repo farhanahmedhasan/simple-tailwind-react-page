@@ -3,6 +3,9 @@
 @import 'tailwindcss/utilities';
 
 @import './styles/base.css';
-@import './styles/card.css';
 @import './styles/footer.css';
 @import './styles/dropdown.css';
+
+@import './styles/card.css';
+@import './styles/button.css';
+@import './styles/flex.css';
