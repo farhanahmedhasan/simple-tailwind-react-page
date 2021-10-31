@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import moment from 'moment';
 import suncalc from 'suncalc';
@@ -11,11 +11,9 @@ import nightImg from '../assests/images/night.jpg';
 
 const Faq = () => {
   const [location, setLocation] = useState({
-    lat: false,
-    long: false,
+    lat: 23.8208961,
+    long: 90.3654296,
   });
-
-  const imgContainer = useRef(null);
 
   //Getting current Hour
   const currentHour = moment().get('hour');
@@ -104,7 +102,7 @@ const Faq = () => {
       <div className='h-24 w-96 bg-green-500 m-10 relative'>
         <div className='mix-blend-color-burn h-36 w-56 bg-yellow-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'></div>
       </div>
-      <img src={findRightImg()} alt='' ref={imgContainer} />
+      <img src={findRightImg()} alt='' />
     </>
   );
 };
