@@ -13,6 +13,7 @@ const NavDropDown = ({ open, toggle }) => {
       <Link className='' to='/about'>
         About
       </Link>
+      <Link to='/faq'>Faq</Link>
       <Link className='' to='/contact'>
         Contact
       </Link>

@@ -38,6 +38,7 @@ const Navbar = () => {
           <Link to='/'>Home</Link>
           <Link to='/menu'>Menu</Link>
           <Link to='/about'>About</Link>
+          <Link to='/faq'>Faq</Link>
           <Link to='/contact'>Contact</Link>
         </div>
       </nav>

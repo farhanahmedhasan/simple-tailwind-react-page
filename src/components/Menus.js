@@ -16,7 +16,7 @@ const Menus = () => {
               <img src={imgSrc} className='card__img' alt='egg' />
               <h2 className='card__title'>{name}</h2>
               <p className='card__subtitle'>{title}</p>
-              <span>${price}</span>
+              <span className='mb-2'>${price}</span>
             </div>
           );
         })}
