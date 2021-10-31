@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/simple-tailwind-react-page/static/css/main.0b06a9ae.chunk.css",
-    "main.js": "/simple-tailwind-react-page/static/js/main.dac74cdc.chunk.js",
-    "main.js.map": "/simple-tailwind-react-page/static/js/main.dac74cdc.chunk.js.map",
-    "runtime-main.js": "/simple-tailwind-react-page/static/js/runtime-main.f52564c1.js",
-    "runtime-main.js.map": "/simple-tailwind-react-page/static/js/runtime-main.f52564c1.js.map",
-    "static/js/2.1e7caf32.chunk.js": "/simple-tailwind-react-page/static/js/2.1e7caf32.chunk.js",
-    "static/js/2.1e7caf32.chunk.js.map": "/simple-tailwind-react-page/static/js/2.1e7caf32.chunk.js.map",
-    "static/js/3.1e47dd48.chunk.js": "/simple-tailwind-react-page/static/js/3.1e47dd48.chunk.js",
-    "static/js/3.1e47dd48.chunk.js.map": "/simple-tailwind-react-page/static/js/3.1e47dd48.chunk.js.map",
+    "main.css": "/simple-tailwind-react-page/static/css/main.5b71e86f.chunk.css",
+    "main.js": "/simple-tailwind-react-page/static/js/main.184ec04e.chunk.js",
+    "main.js.map": "/simple-tailwind-react-page/static/js/main.184ec04e.chunk.js.map",
+    "runtime-main.js": "/simple-tailwind-react-page/static/js/runtime-main.27e2135a.js",
+    "runtime-main.js.map": "/simple-tailwind-react-page/static/js/runtime-main.27e2135a.js.map",
+    "static/js/2.82014bb2.chunk.js": "/simple-tailwind-react-page/static/js/2.82014bb2.chunk.js",
+    "static/js/2.82014bb2.chunk.js.map": "/simple-tailwind-react-page/static/js/2.82014bb2.chunk.js.map",
+    "static/js/3.e543ed5d.chunk.js": "/simple-tailwind-react-page/static/js/3.e543ed5d.chunk.js",
+    "static/js/3.e543ed5d.chunk.js.map": "/simple-tailwind-react-page/static/js/3.e543ed5d.chunk.js.map",
     "index.html": "/simple-tailwind-react-page/index.html",
-    "static/css/main.0b06a9ae.chunk.css.map": "/simple-tailwind-react-page/static/css/main.0b06a9ae.chunk.css.map",
-    "static/js/2.1e7caf32.chunk.js.LICENSE.txt": "/simple-tailwind-react-page/static/js/2.1e7caf32.chunk.js.LICENSE.txt",
+    "static/css/main.5b71e86f.chunk.css.map": "/simple-tailwind-react-page/static/css/main.5b71e86f.chunk.css.map",
+    "static/js/2.82014bb2.chunk.js.LICENSE.txt": "/simple-tailwind-react-page/static/js/2.82014bb2.chunk.js.LICENSE.txt",
+    "static/media/afternoon.e427b295.jpg": "/simple-tailwind-react-page/static/media/afternoon.e427b295.jpg",
     "static/media/egg-2.b8045f99.jpg": "/simple-tailwind-react-page/static/media/egg-2.b8045f99.jpg",
-    "static/media/egg.4d911d05.jpg": "/simple-tailwind-react-page/static/media/egg.4d911d05.jpg"
+    "static/media/egg.4d911d05.jpg": "/simple-tailwind-react-page/static/media/egg.4d911d05.jpg",
+    "static/media/evening.17b168f2.jpg": "/simple-tailwind-react-page/static/media/evening.17b168f2.jpg",
+    "static/media/morning.1aeb4f97.jpg": "/simple-tailwind-react-page/static/media/morning.1aeb4f97.jpg",
+    "static/media/night.000f1aa4.jpg": "/simple-tailwind-react-page/static/media/night.000f1aa4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f52564c1.js",
-    "static/js/2.1e7caf32.chunk.js",
-    "static/css/main.0b06a9ae.chunk.css",
-    "static/js/main.dac74cdc.chunk.js"
+    "static/js/runtime-main.27e2135a.js",
+    "static/js/2.82014bb2.chunk.js",
+    "static/css/main.5b71e86f.chunk.css",
+    "static/js/main.184ec04e.chunk.js"
   ]
 }
