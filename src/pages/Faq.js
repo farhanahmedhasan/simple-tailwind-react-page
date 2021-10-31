@@ -11,8 +11,8 @@ import nightImg from '../assests/images/night.jpg';
 
 const Faq = () => {
   const [location, setLocation] = useState({
-    lat: 23.8208961,
-    long: 90.3654296,
+    lat: false,
+    long: false,
   });
 
   //Getting current Hour
