@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import moment from 'moment';
 import suncalc from 'suncalc';
 
-// import egg from '../assests/images/egg.jpg';
 import morning from '../assests/images/morning.jpg';
 import afternoon from '../assests/images/afternoon.jpg';
 import evening from '../assests/images/evening.jpg';
@@ -92,6 +91,7 @@ const Faq = () => {
         setLocation({ lat: position.coords.latitude, long: position.coords.longitude });
       },
       undefined,
+
       option
     );
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -99,10 +99,16 @@ const Faq = () => {
 
   return (
     <>
-      <div className='h-24 w-96 bg-green-500 m-10 relative'>
-        <div className='mix-blend-color-burn h-36 w-56 bg-yellow-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'></div>
-      </div>
-      <img src={findRightImg()} alt='' />
+      {!location.lat && <div>Loading Image...</div>}
+
+      {location.lat && (
+        <>
+          <div className='h-24 w-96 bg-green-500 m-10 relative'>
+            <div className='mix-blend-color-burn h-36 w-56 bg-yellow-500 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'></div>
+          </div>
+          <img src={findRightImg()} alt='' />
+        </>
+      )}
     </>
   );
 };
